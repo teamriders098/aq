@@ -1,6 +1,7 @@
 { pkgs }: {
 	deps = [
-		pkgs.gir-rs
+		pkgs.haskellPackages.daemons
+  pkgs.gir-rs
   pkgs.nodejs-16_x
      pkgs.libwebp
       pkgs.ffmpeg
